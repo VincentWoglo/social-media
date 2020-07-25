@@ -1,0 +1,114 @@
+
+.banner-middle{
+  text
+}
+.main{
+  text-align: center;
+}
+.welcome{
+  background-image: url(../img/background-home.png);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+height: 60vh;
+}
+.banner{
+  margin: auto;
+  padding-top: 4em;
+  color: #fff;
+  font-size: 36px;
+  width: 335px;
+}
+.connect-border{
+  padding: 10px;
+  margin-top: 5em;
+  border: 1px #32A2E1 solid;
+  background-color: #32a2e1;
+  color: #fff;
+  cursor: pointer;
+}
+.connect-border a{
+  text-decoration: none;
+  color: #fff;
+}
+.connect-border:hover{
+  background-color: #2d95d0;
+  border: 1px #2d95d0 solid;
+}
+.what-we-do{
+  padding: 10em 5em 5em 5em;
+margin: auto;
+}
+.what-title{
+  font-size: 24px;
+  color: #344854;
+}
+.what-descrip{
+  padding-top: 20px;
+  width: 450px;
+  color: #929292;
+}
+.what-text,.what-icon{
+  display: inline-block;
+}
+.what-icon{
+  margin-left: 25%;
+}
+.what-middle{
+  display: flex;
+  justify-content: center;
+}
+.as-seen-on{
+  background-color: #F9F9F9;
+  padding: 4em 5em 4em 5em;
+}
+.as-seen-title{
+  color: #3F3D56;
+  font-size: 24px;
+  text-align: center;
+}
+.as-seen-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 2.5em;
+}
+.seen-img{
+  margin-top:3em;
+  width: 70px;
+  height: 50px;
+}
+.footer{
+  background-color: #344854;
+  padding: 1.5em;
+  color: #fff;
+  font-size: 18px;
+}
+.copyright,.create-account,.terms-of-use{
+  display: inline-block;
+}
+.terms-of-use{
+  margin-left: 2em;
+}
+.copyright{
+  float: right;
+  font-size: 14px;
+}
+@media only screen and (max-width: 690px){
+  .what-title{
+  }
+  .what-middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+
+.what-icon{
+  margin-top: 5em;
+  margin-left: 0%;
+}
+
+}
+
